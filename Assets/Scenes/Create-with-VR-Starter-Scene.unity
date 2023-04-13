@@ -290,7 +290,7 @@ MonoBehaviour:
   _lockedGrabReleaseDistance: 0.4
   _translationResistance: 0
   _rotationResistance: 0
-  _rigidBodySource: {fileID: 0}
+  _rigidBodySource: {fileID: 57349466}
   _rigidBodyDynamicOnRelease: 1
   _verticalReleaseMultiplier: 1
   _horizontalReleaseMultiplier: 1
@@ -1119,7 +1119,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6105005989860976833, guid: b1d4b9203dee55f45a9082daca193c88, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b1d4b9203dee55f45a9082daca193c88, type: 3}
 --- !u!4 &513139354 stripped
 Transform:
@@ -1251,7 +1252,7 @@ MonoBehaviour:
   _lockedGrabReleaseDistance: 0.4
   _translationResistance: 0
   _rotationResistance: 0
-  _rigidBodySource: {fileID: 0}
+  _rigidBodySource: {fileID: 518286414}
   _rigidBodyDynamicOnRelease: 1
   _verticalReleaseMultiplier: 1
   _horizontalReleaseMultiplier: 1
@@ -1366,6 +1367,7 @@ GameObject:
   - component: {fileID: 552127992}
   - component: {fileID: 552127991}
   - component: {fileID: 552127990}
+  - component: {fileID: 552127995}
   - component: {fileID: 552127994}
   m_Layer: 0
   m_Name: Sticky note
@@ -1485,7 +1487,7 @@ MonoBehaviour:
   _lockedGrabReleaseDistance: 0.4
   _translationResistance: 0
   _rotationResistance: 0
-  _rigidBodySource: {fileID: 0}
+  _rigidBodySource: {fileID: 552127995}
   _rigidBodyDynamicOnRelease: 1
   _verticalReleaseMultiplier: 1
   _horizontalReleaseMultiplier: 1
@@ -1528,17 +1530,33 @@ MonoBehaviour:
     _grabProximityTransform: {fileID: 0}
     _grabberProximityUseDefault: 1
     _grabberProximityIndex: 0
-    _enableOnHandNear: {fileID: 0}
+    _enableOnHandNear: {fileID: 1511732859}
   _additionalGrabPoints: []
   _useParenting: 1
   _autoCreateStartAnchor: 0
-  _startAnchor: {fileID: 0}
+  _startAnchor: {fileID: 1300820921}
   _tag: Note
   _dropAlignTransformUseSelf: 1
   _dropAlignTransform: {fileID: 0}
   _dropSnapMode: 3
   _dropProximityTransformUseSelf: 1
   _dropProximityTransform: {fileID: 0}
+--- !u!54 &552127995
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552127989}
+  serializedVersion: 2
+  m_Mass: 0.3
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &602791124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1631,7 +1649,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6105005989860976833, guid: b1d4b9203dee55f45a9082daca193c88, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b1d4b9203dee55f45a9082daca193c88, type: 3}
 --- !u!1 &602791125 stripped
 GameObject:
@@ -1980,7 +1999,7 @@ MonoBehaviour:
   _lockedGrabReleaseDistance: 0.4
   _translationResistance: 0
   _rotationResistance: 0
-  _rigidBodySource: {fileID: 0}
+  _rigidBodySource: {fileID: 722250218}
   _rigidBodyDynamicOnRelease: 1
   _verticalReleaseMultiplier: 1
   _horizontalReleaseMultiplier: 1
@@ -2821,7 +2840,7 @@ PrefabInstance:
     - target: {fileID: 7530277580867482867, guid: 710e78790f563cb439a579a906727a28,
         type: 3}
       propertyPath: m_Name
-      value: Lighter_Candle_Green (1)
+      value: Lighter_Candle_Green_Decal
       objectReference: {fileID: 0}
     - target: {fileID: 7530277580867482867, guid: 710e78790f563cb439a579a906727a28,
         type: 3}
@@ -2833,7 +2852,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 325f591aa4108674fa9680246f01f131, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3197666532628068173, guid: 710e78790f563cb439a579a906727a28, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 710e78790f563cb439a579a906727a28, type: 3}
 --- !u!1 &1115510350 stripped
 GameObject:
@@ -3201,7 +3221,7 @@ MonoBehaviour:
   _lockedGrabReleaseDistance: 0.4
   _translationResistance: 0
   _rotationResistance: 0
-  _rigidBodySource: {fileID: 0}
+  _rigidBodySource: {fileID: 1370976492}
   _rigidBodyDynamicOnRelease: 1
   _verticalReleaseMultiplier: 1
   _horizontalReleaseMultiplier: 1
@@ -3314,7 +3334,6 @@ GameObject:
   - component: {fileID: 1511732860}
   - component: {fileID: 1511732863}
   - component: {fileID: 1511732862}
-  - component: {fileID: 1511732861}
   m_Layer: 0
   m_Name: Sticky note Decal
   m_TagString: Untagged
@@ -3337,19 +3356,6 @@ Transform:
   m_Father: {fileID: 518286412}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1511732861
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511732859}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1511732862
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3873,7 +3879,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2144127697330337720, guid: ea01289ad12c363458e3a12b1e6afdf2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ea01289ad12c363458e3a12b1e6afdf2, type: 3}
 --- !u!1 &1671276486 stripped
 GameObject:
@@ -4098,14 +4105,15 @@ PrefabInstance:
     - target: {fileID: 2030551972786798886, guid: aceac99ed0f74f443850d9a9365d671f,
         type: 3}
       propertyPath: m_Name
-      value: Book_C_Green (1)
+      value: Book_C_Green_Decal
       objectReference: {fileID: 0}
     - target: {fileID: 2030551972786798886, guid: aceac99ed0f74f443850d9a9365d671f,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -507697260087840769, guid: aceac99ed0f74f443850d9a9365d671f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: aceac99ed0f74f443850d9a9365d671f, type: 3}
 --- !u!1 &1847468076 stripped
 GameObject:
