@@ -610,6 +610,7 @@ MonoBehaviour:
         _distalLocalFingerPrintCenter: {x: -0.016233873, y: -0.0061681746, z: -0}
   _handPosesFoldout: 1
   _handPoses:
+  - {fileID: 11400000, guid: 5544b4740aefd9d4eadcb75d741feb23, type: 2}
   - {fileID: 11400000, guid: dbc9b9749f7c3634499ebe3cb8b7dd7f, type: 2}
   - {fileID: 11400000, guid: 4e2715ba23c346049b3ffe93ae53acbd, type: 2}
   - {fileID: 11400000, guid: d0c75f03b7d3a6d4e802962660b823e9, type: 2}
